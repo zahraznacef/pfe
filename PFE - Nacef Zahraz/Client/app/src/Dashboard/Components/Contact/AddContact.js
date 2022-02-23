@@ -8,7 +8,7 @@ const AddContact = () => {
 
     // Hide Adding Form
     const hideForm = () => {
-        document.querySelector(".dashboard-add").classList.remove("flex")
+        document.querySelector(".dashboard-contact-add").classList.remove("flex")
         document.querySelector("body").classList.remove("overflow-hidden")
     }
 
