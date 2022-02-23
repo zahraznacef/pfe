@@ -8,7 +8,7 @@ const AddLawyers = () => {
 
     // Hide Adding Form
     const hideForm = () => {
-        document.querySelector(".dashboard-add").classList.remove("flex")
+        document.querySelector(".dashboard-lawyer-add").classList.remove("flex")
         document.querySelector("body").classList.remove("overflow-hidden")
     }
 
